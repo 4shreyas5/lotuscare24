@@ -25,7 +25,7 @@ export default function Home() {
         <SplitSection
           eyebrow="Wie wij zijn"
           title="Zorg die begint bij luisteren"
-          image={images.keukenWarmte}
+          image={images.familie}
           balance="asymmetric"
           imageVariant="editorial"
         >
@@ -49,7 +49,7 @@ export default function Home() {
         <SplitSection
           eyebrow="Persoonlijke zorg"
           title="Zorg die aansluit bij wie u bent"
-          image={images.persoonlijkeVerzorging}
+          image={images.mantelzorg}
           imagePosition="left"
           balance="asymmetric"
           imageVariant="portrait"
@@ -77,7 +77,7 @@ export default function Home() {
         eyebrow="Klaar om kennis te maken?"
         title="Laten we rustig kennismaken"
         intro="In een rustig, vrijblijvend gesprek bespreken we uw situatie — zonder verplichtingen."
-        image={images.heroThuiszorg}
+        image={images.keukenWarmte}
         actions={
           <Button size="lg" render={<Link href="/kennismaken" />}>
             Plan een kennismaking

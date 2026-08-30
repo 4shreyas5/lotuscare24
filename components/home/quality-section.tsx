@@ -21,8 +21,8 @@ function QualitySection() {
       <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-16">
         <Reveal className="lg:col-span-5">
           <PlaceholderImage
-            src={images.handenVertrouwen.src}
-            alt={images.handenVertrouwen.alt}
+            src={images.samenwerken.src}
+            alt={images.samenwerken.alt}
             variant="portrait"
             sizes="(min-width: 1024px) 36vw, 100vw"
           />

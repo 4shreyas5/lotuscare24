@@ -60,7 +60,7 @@ export default function OverOnsPage() {
         <SplitSection
           eyebrow="Onze aanpak"
           title="Klein beginnen, goed luisteren"
-          image={images.keukenWarmte}
+          image={images.team}
           imageVariant="editorial"
         >
           <p>

@@ -38,7 +38,7 @@ export default function HoeWijHelpenPage() {
         <SplitSection
           eyebrow="01 — Hoe werkt het?"
           title="Van kennismaking tot passende zorg"
-          image={images.begeleiding}
+          image={images.handenVertrouwen}
           imageVariant="overlap"
         >
           <p>
@@ -59,7 +59,7 @@ export default function HoeWijHelpenPage() {
         <SplitSection
           eyebrow="02 — Zorgplanning"
           title="Zorg die overzichtelijk blijft"
-          image={images.team}
+          image={images.samenwerken}
           imagePosition="left"
           imageVariant="editorial"
         >

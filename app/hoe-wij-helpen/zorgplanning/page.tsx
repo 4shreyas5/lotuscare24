@@ -6,6 +6,7 @@ import { PageHero } from "@/components/layout/page-hero";
 import { Section } from "@/components/layout/section";
 import { SplitSection } from "@/components/layout/split-section";
 import { CTAQuiet } from "@/components/layout/cta-quiet";
+import { ZorgcoachSection } from "@/components/shared/zorgcoach-section";
 import { Button } from "@/components/ui/button";
 import { images } from "@/lib/images";
 
@@ -35,7 +36,7 @@ export default function ZorgplanningPage() {
         <SplitSection
           eyebrow="Eén team, één overzicht"
           title="Een vast team houdt de lijnen kort"
-          image={images.team}
+          image={images.samenwerken}
           imageVariant="editorial"
         >
           <p>
@@ -54,7 +55,7 @@ export default function ZorgplanningPage() {
         <SplitSection
           eyebrow="Samenwerking"
           title="Afstemming met andere betrokkenen"
-          image={images.samenwerken}
+          image={images.keukenWarmte}
           imagePosition="left"
           imageVariant="atmospheric"
         >
@@ -69,6 +70,8 @@ export default function ZorgplanningPage() {
           </p>
         </SplitSection>
       </Section>
+
+      <ZorgcoachSection image={images.gesprekAanTafel} />
 
       <CTAQuiet
         title="Vragen over hoe wij zorg coördineren?"

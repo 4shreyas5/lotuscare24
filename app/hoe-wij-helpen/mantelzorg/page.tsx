@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 import { InfoList } from "@/components/service/info-list";
 import { PullQuote } from "@/components/shared/pull-quote";
+import { BackgroundImage } from "@/components/media/background-image";
 import { images } from "@/lib/images";
 
 export const metadata: Metadata = {
@@ -40,7 +41,8 @@ export default function MantelzorgPage() {
         }
       />
 
-      <Section surface="accent">
+      <Section surface="accent" className="relative isolate overflow-hidden">
+        <BackgroundImage image={images.ouderStelBankje} intensity="subtle" />
         <Reveal className="mx-auto flex max-w-2xl flex-col items-center gap-4 text-center">
           <PullQuote className="sm:text-4xl">U hoeft het niet alleen te doen.</PullQuote>
           <p className="text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">

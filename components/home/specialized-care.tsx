@@ -38,8 +38,8 @@ function SpecializedCare() {
       />
       <Reveal delay={0.1} className="mt-10">
         <PlaceholderImage
-          src={images.vierentwintigUur.src}
-          alt={images.vierentwintigUur.alt}
+          src={images.handenVertrouwen.src}
+          alt={images.handenVertrouwen.alt}
           variant="atmospheric"
           radius="sm"
           sizes="(min-width: 1024px) 80vw, 100vw"

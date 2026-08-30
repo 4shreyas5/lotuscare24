@@ -48,8 +48,8 @@ function ZorgHero() {
           <div className="lg:col-span-5">
             <Reveal delay={0.15}>
               <PlaceholderImage
-                src={images.verpleging.src}
-                alt={images.verpleging.alt}
+                src={images.team.src}
+                alt={images.team.alt}
                 variant="editorial"
                 priority
                 sizes="(min-width: 1024px) 36vw, 100vw"

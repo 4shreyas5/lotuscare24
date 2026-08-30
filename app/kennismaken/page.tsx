@@ -45,8 +45,8 @@ export default function KennismakenPage() {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="flex flex-col gap-8 lg:col-span-5">
             <PlaceholderImage
-              src={images.begeleiding.src}
-              alt={images.begeleiding.alt}
+              src={images.gesprekAanTafel.src}
+              alt={images.gesprekAanTafel.alt}
               variant="portrait"
               sizes="(min-width: 1024px) 36vw, 100vw"
             />

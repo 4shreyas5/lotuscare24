@@ -44,8 +44,8 @@ export default async function SolliciterenPage({
           </div>
           <div className="lg:col-span-5">
             <PlaceholderImage
-              src={images.team.src}
-              alt={images.team.alt}
+              src={images.keukenWarmte.src}
+              alt={images.keukenWarmte.alt}
               variant="editorial"
               sizes="(min-width: 1024px) 36vw, 100vw"
             />

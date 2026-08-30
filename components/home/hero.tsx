@@ -16,7 +16,7 @@ import { images } from "@/lib/images";
 function Hero() {
   return (
     <section className="relative isolate flex min-h-[80svh] items-end overflow-hidden bg-primary sm:min-h-[85svh] lg:min-h-[92svh]">
-      <HeroImage src={images.heroThuiszorg.src} alt={images.heroThuiszorg.alt} />
+      <HeroImage src={images.keukenWarmte.src} alt={images.keukenWarmte.alt} />
       <div
         aria-hidden="true"
         className="absolute inset-x-0 bottom-0 h-3/4 bg-linear-to-t from-black/80 via-black/35 to-transparent"

@@ -45,7 +45,7 @@ export default function WerkwijzePage() {
         <SplitSection
           eyebrow="Stap één"
           title="Een compleet beeld, geen momentopname"
-          image={images.begeleiding}
+          image={images.samenwerken}
           imageVariant="overlap"
         >
           <p>
@@ -61,7 +61,7 @@ export default function WerkwijzePage() {
         <SplitSection
           eyebrow="Stap twee"
           title="Een team dat past, niet toevallig beschikbaar is"
-          image={images.team}
+          image={images.mantelzorg}
           imagePosition="left"
           imageVariant="editorial"
         >

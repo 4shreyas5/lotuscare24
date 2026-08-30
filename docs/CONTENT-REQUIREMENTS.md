@@ -38,10 +38,41 @@ Everything below is currently unknown and must **not** be fabricated (`CLAUDE.md
 
 ## Brand & visual assets
 
-- [ ] Final logo/wordmark — explicitly deferred per brief §8; current site uses a placeholder text wordmark only
+- [ ] Final logo/wordmark — see "Lotus flower brand mark" below; current site uses a placeholder text wordmark only
 - [ ] Confirmation/adjustment of the proposed color direction in `docs/DESIGN-SYSTEM.md` once seen rendered (color reads differently on screen than as oklch values on paper)
-- [ ] Real photography (see imagery guidelines in `docs/DESIGN-SYSTEM.md`) — homes, caregivers, families, natural light; sourcing plan needed (commissioned shoot vs. licensed stock as interim)
 - [ ] Favicon / OG share image once brand mark is finalized
+
+### Real photography — client-supplied
+
+`public/images/client/` now holds actual files. Inventory and outcome:
+
+| File | Subject / quality | Outcome |
+| --- | --- | --- |
+| `nurse-take-care-of-senior-woman-thuisontzorgt.jpg` (6192×4128, full-res, proper stock-photo EXIF/caption metadata) | Caregiver with visible id badge, hand on an elderly woman's shoulder, indoor home setting | **Used** — now `images.verpleging`, live on `/zorg/verpleging` (hero + closing CTA bookend) |
+| `Unknown.jpeg` (500×333, low native resolution) | Elderly couple on a park bench, seen from behind | **Used**, but only as a very low-opacity atmospheric background (`images.ouderStelBankje`) on `/hoe-wij-helpen/mantelzorg`'s pull-quote section — its low resolution is invisible at that treatment but would look soft used as a foreground image |
+| `adult-anniversary-care-1449049-1024x716 thuisontzorgt - kopie (2).jpg` (1024×716) | Elderly couple, blurred/bokeh hand-hold, looks like an anniversary-dance moment, not obviously "care" | **Not used.** The filename ends in "thuisontzorgt - kopie (2)" — Dutch for "copy (2)" — strongly suggesting this specific file was saved directly from thuisontzorgt.nl's own site rather than independently licensed. This project's own permanent rule (`CLAUDE.md` §3) forbids using that site's photography. Worth double-checking this image's actual license/source before ever using it here. |
+| `yj1vjiqnyp2sxqkua2ry.jpg` (800×532) | An apartment/residential building exterior — no people | **Not used.** No confirmation this is an actual LotusCare24 location, and using it as if it were would fabricate a company fact. Purpose unclear — flag for the business: what is this photo meant to represent? |
+| `Lotus_logo_exact.png` (940×940 PNG) | Gold lotus icon + the word "LOTUS" (not "LotusCare24"), on an opaque magenta background with an ornate decorative corner frame | **Not implemented** — see "Lotus flower brand mark" below |
+
+**Still missing** (no file yet, for any of these):
+- Homepage hero replacement (client asked for something calmer than "people looking at each other" — none of the delivered photos fit; current `images.heroThuiszorg` kept unchanged)
+- `/kennismaken` replacement — needs a photo that reads as a professional intake conversation, not "twee vriendinnen aan de thee." `/kennismaken` currently still shows `images.begeleiding` ("two people in a relaxed conversation on the couch" per its own Pexels description) — very likely the exact image being rejected, left unchanged since no delivered photo fits better without repeating the verpleging photo
+- `/zorg/persoonlijke-verzorging`, `/zorg/begeleiding`, `/zorg/24-uurszorg`, `/zorg/palliatieve-zorg` — six services were originally captioned by the client in WhatsApp screenshots, but this delivery only contained the verpleging photo (plus the two above that weren't used) — the other five captioned photos still need to arrive as files
+- A "huishoudelijke hulp" photo — none of the delivered files clearly depicts household/domestic help specifically. Huishoudelijke hulp requires business confirmation before becoming a real LotusCare24 service anyway; it's currently just named within `/zorg/thuiszorg`'s copy, not a route
+
+### Lotus flower brand mark
+
+`Lotus_logo_exact.png` was inspected but **not implemented** into the header,
+footer, or wordmark. As delivered it: (1) reads "LOTUS", not "LotusCare24";
+(2) has an opaque magenta background and an ornate gold decorative frame,
+not an isolated transparent icon; (3) its ornate, gilded, framed style
+directly conflicts with this project's own permanent design rule
+(`CLAUDE.md` §4: "no ... cliché lotus-flower icons," restraint over
+decoration). Per the brief's own instruction, it was not redrawn/simplified
+either — a brand mark is a highly visible, hard-to-reverse decision that
+needs either a proper isolated asset (transparent background, no frame, no
+"LOTUS" text) or an explicit decision to override the existing restrained
+design direction, not a unilateral edit.
 
 ## Analytics & operational
 

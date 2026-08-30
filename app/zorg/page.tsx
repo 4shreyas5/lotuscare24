@@ -59,7 +59,7 @@ export default function ZorgPage() {
       <CTAImage
         title="Plan een vrijblijvende kennismaking"
         intro="Geen verplichtingen — gewoon een rustig gesprek over uw situatie."
-        image={images.verpleging}
+        image={images.team}
         actions={
           <Button size="lg" render={<Link href="/kennismaken" />}>
             Plan een kennismaking

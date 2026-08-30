@@ -7,7 +7,6 @@ import { Section } from "@/components/layout/section";
 import { CTAQuiet } from "@/components/layout/cta-quiet";
 import { Button } from "@/components/ui/button";
 import { Timeline } from "@/components/shared/timeline";
-import { images } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Hoe werkt het?",
@@ -20,7 +19,6 @@ const steps = [
     title: "Kennismaken",
     description:
       "We beginnen met een vrijblijvend gesprek — telefonisch of bij u thuis. Geen verplichtingen, gewoon kennismaken en uitleggen hoe wij werken.",
-    image: images.gesprekAanTafel,
   },
   {
     title: "Zorgbehoefte bespreken",
@@ -41,7 +39,6 @@ const steps = [
     title: "Blijven evalueren en afstemmen",
     description:
       "Situaties veranderen. We blijven in gesprek en stellen de zorg bij wanneer dat nodig is, zodat deze blijft aansluiten bij uw leven.",
-    image: images.samenwerken,
   },
 ];
 

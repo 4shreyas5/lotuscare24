@@ -1,18 +1,24 @@
 /**
  * Centralized image configuration.
  *
- * TEMPORARY: every entry here is stock photography used as a stand-in for
- * real LotusCare24 photography (see docs/CONTENT-REQUIREMENTS.md). None of
- * the people shown are LotusCare24 staff or clients. Sourced from Pexels
- * (free license, no attribution required) — replace `src` with real
- * photography per entry as it becomes available; nothing else needs to change.
+ * Most entries here are TEMPORARY stock photography used as a stand-in for
+ * real LotusCare24 photography (see docs/CONTENT-REQUIREMENTS.md), sourced
+ * from Pexels (free license, no attribution required). A small number of
+ * entries are real client-supplied photos from `public/images/client/`,
+ * marked as such via `source: "client"` — see docs/CONTENT-REQUIREMENTS.md
+ * for which page each was confirmed for and by whom. None of the people
+ * shown in the remaining Pexels entries are LotusCare24 staff or clients —
+ * replace `src` with real photography per entry as it becomes available;
+ * nothing else needs to change.
  */
 
 export type ImageAsset = {
   src: string;
   alt: string;
-  /** Pexels photographer credit, kept for reference while the photo is temporary. */
+  /** Pexels photographer credit, or a note on client-provided photos. */
   credit: string;
+  /** Marks a real, client-supplied photo rather than temporary stock. */
+  source?: "client";
 };
 
 function pexels(id: number, width = 1920) {
@@ -41,9 +47,10 @@ export const images = {
     credit: "Pexels",
   },
   verpleging: {
-    src: pexels(6129688),
-    alt: "Verpleegkundige die bij een cliënt thuis een controle uitvoert",
-    credit: "Pexels",
+    src: "/images/client/nurse-take-care-of-senior-woman-thuisontzorgt.jpg",
+    alt: "Verpleegkundige met naamsticker die een oudere cliënt geruststellend een hand op de schouder legt, thuis in de woonkamer",
+    credit: "Aangeleverd door de klant",
+    source: "client",
   },
   begeleiding: {
     src: pexels(6135180),
@@ -84,6 +91,12 @@ export const images = {
     src: pexels(36237734),
     alt: "Close-up van gevouwen, oudere handen",
     credit: "Pexels",
+  },
+  ouderStelBankje: {
+    src: "/images/client/Unknown.jpeg",
+    alt: "Ouder echtpaar dat, van achteren gezien, gearmd op een bankje in het park zit",
+    credit: "Aangeleverd door de klant",
+    source: "client",
   },
 } as const satisfies Record<string, ImageAsset>;
 
