@@ -10,7 +10,7 @@ import {
 
 const faqs = [
   {
-    question: "Hoe vraag ik zorg aan bij LotusCare24?",
+    question: "Hoe vraag ik zorg aan bij Lotus Vitaal?",
     answer:
       "Neem contact met ons op via het contactformulier of telefonisch. In een vrijblijvend gesprek bespreken we uw situatie en bekijken we samen welke zorg passend is.",
   },
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Hoe verloopt een eerste kennismaking?",
     answer:
-      "Een kennismaking is vrijblijvend en laagdrempelig. We luisteren naar uw situatie en leggen uit hoe LotusCare24 te werk gaat, zodat u een goed beeld heeft voordat u een keuze maakt.",
+      "Een kennismaking is vrijblijvend en laagdrempelig. We luisteren naar uw situatie en leggen uit hoe Lotus Vitaal te werk gaat, zodat u een goed beeld heeft voordat u een keuze maakt.",
   },
 ];
 

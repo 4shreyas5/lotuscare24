@@ -14,7 +14,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Werkwijze",
   description:
-    "Hoe LotusCare24 zorg vormgeeft: van luisteren naar een zorgvraag tot een klein, vast team dat met u meebeweegt.",
+    "Hoe Lotus Vitaal zorg vormgeeft: van luisteren naar een zorgvraag tot een klein, vast team dat met u meebeweegt.",
 };
 
 export default function WerkwijzePage() {

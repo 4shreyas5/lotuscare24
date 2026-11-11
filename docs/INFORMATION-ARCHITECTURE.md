@@ -1,4 +1,4 @@
-# LotusCare24 — Information Architecture
+# Lotus Vitaal — Information Architecture
 
 This is the final recommended sitemap for v1, not the brief's starting hypothesis. It keeps the brief's category coverage but merges several thin topics into richer parent pages, and splits out `Voor mantelzorgers` as its own top-level item because the brief and reference model both treat family caregivers as a distinct, decision-making audience, not a subsection of "how it works."
 
@@ -29,7 +29,7 @@ This is the final recommended sitemap for v1, not the brief's starting hypothesi
 - **Nachtzorg → a section within 24-uurszorg**, not its own page. It's a variant of continuous care, not a separate service decision for a visitor.
 - **Zorgplanning/zorgcoördinatie → folded into "Hoe het werkt"** rather than a separate page under "Hoe wij helpen" — it's part of explaining the process, and a standalone page would likely repeat the journey content.
 - **Over ons + Visie/werkwijze + Kwaliteit en vertrouwen → one page with anchored sections.** Splitting into three thin pages forces a visitor into unnecessary clicks before any of the three has enough real content (most of it currently `[CONTENT NODIG]`). Revisit splitting once each section has enough substance to stand alone.
-- **Werken bij + Vacatures + Solliciteren → one page for v1.** A real vacancies listing implies an ATS/CMS integration that doesn't exist yet (see `docs/CONTENT-REQUIREMENTS.md`); until then, one page describing working at LotusCare24 with a contact-to-apply path is more honest than an empty "vacatures" page.
+- **Werken bij + Vacatures + Solliciteren → one page for v1.** A real vacancies listing implies an ATS/CMS integration that doesn't exist yet (see `docs/CONTENT-REQUIREMENTS.md`); until then, one page describing working at Lotus Vitaal with a contact-to-apply path is more honest than an empty "vacatures" page.
 - **Voor zorgprofessionals + Ketenpartners → one "Samenwerken" page**, sectioned by audience (referrers/huisartsen vs. samenwerkingspartners), since both are tertiary-audience, relationship-oriented content.
 - **Klachten kept as its own legal page**, not folded into privacy — Dutch care providers are required (Wkkgz) to have a findable, explicit complaints procedure; burying it hurts both compliance and trust.
 - **FAQ as both a standalone page and contextual snippets** on relevant service pages (not full duplication — link back to the canonical FAQ entry).
@@ -45,9 +45,9 @@ This is the final recommended sitemap for v1, not the brief's starting hypothesi
 Answers the brief's eight homepage questions (§13) without mechanically implementing every listed section (§14) as its own block. Recommended flow, to be refined once real copy and imagery exist:
 
 1. **Header** — sticky nav as above.
-2. **Hero** — one clear sentence on what LotusCare24 is and for whom, one primary CTA, one supporting image. No stat cards, no dashboard UI (`CLAUDE.md` §4).
+2. **Hero** — one clear sentence on what Lotus Vitaal is and for whom, one primary CTA, one supporting image. No stat cards, no dashboard UI (`CLAUDE.md` §4).
 3. **Oriëntatie** — a short two-path split ("zorg voor uzelf of een naaste" vs. "ik ben zorgprofessional / verwijzer") so different audiences self-select immediately instead of scrolling through irrelevant content — a hospitality-site pattern, not a reference-site pattern.
-4. **Introductie** — short, warm paragraph on who LotusCare24 is; factual claims marked `[CONTENT NODIG]` until confirmed.
+4. **Introductie** — short, warm paragraph on who Lotus Vitaal is; factual claims marked `[CONTENT NODIG]` until confirmed.
 5. **Zorgaanbod** — card grid linking to the five `/zorg/*` pages.
 6. **Hoe het werkt** — the care journey as a clear, numbered sequence (see below), linking to `/hoe-het-werkt`.
 7. **Persoonlijke aanpak** — continuity of care / vaste kleine teams framing.
@@ -75,7 +75,7 @@ Exact Dutch copy is a content-writing task, not a placeholder to freeze here —
 
 ## Page contract (applies to every `/zorg/*` page)
 
-Per brief §17, each service page should answer, in order: wat is het, voor wie, wat doet LotusCare24, hoe voelt het (de ervaring), en wat is de volgende stap (CTA naar contact/intake). Build one shared service-page template/component rather than five bespoke layouts.
+Per brief §17, each service page should answer, in order: wat is het, voor wie, wat doet Lotus Vitaal, hoe voelt het (de ervaring), en wat is de volgende stap (CTA naar contact/intake). Build one shared service-page template/component rather than five bespoke layouts.
 
 ## Forms inventory
 

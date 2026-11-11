@@ -13,7 +13,7 @@ import type { ImageAsset } from "@/lib/images";
  * underlying idea the business described: one steady point of contact who
  * helps plan care over time. Two specifics from that description — service
  * area, and independence from municipalities/other organizations — aren't
- * confirmed for LotusCare24, so they're flagged rather than stated as fact.
+ * confirmed for Lotus Vitaal, so they're flagged rather than stated as fact.
  */
 function ZorgcoachSection({ image }: { image: ImageAsset }) {
   return (
@@ -36,12 +36,7 @@ function ZorgcoachSection({ image }: { image: ImageAsset }) {
             </p>
             <p>
               Waar gewenst plannen we periodiek een moment om samen terug en
-              vooruit te kijken, zodat u altijd weet bij wie u terechtkunt —{" "}
-              <span className="text-foreground">
-                [CONTENT NODIG: werkgebied van de zorgcoach bevestigen, en of
-                deze onafhankelijk van gemeenten/andere organisaties werkt]
-              </span>
-              .
+              vooruit te kijken, zodat u altijd weet bij wie u terechtkunt.
             </p>
           </div>
         </Reveal>

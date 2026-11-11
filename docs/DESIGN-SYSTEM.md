@@ -1,4 +1,4 @@
-# LotusCare24 — Design System (v0, initial direction)
+# Lotus Vitaal — Design System (v0, initial direction)
 
 Status: initial direction for implementation, not yet validated in-browser. Colors are given in the same `oklch()` format already used in `app/globals.css` so they can be dropped straight into the `:root` / `.dark` blocks; expect to fine-tune lightness/chroma once rendered against real photography. Logo/wordmark is explicitly a placeholder per brief §8 — do not finalize.
 
@@ -87,7 +87,7 @@ Dark mode is secondary priority for a marketing site aimed partly at older users
 ## Imagery
 
 - Real, warm, dignified photography: people in real homes, natural light, genuine interaction — not stock hospital/clinical imagery, not generic AI-generated illustration.
-- Until real LotusCare24 photography exists, use clearly-labeled placeholder imagery (e.g. a muted duotone/placeholder block with a visible "Beeldmateriaal volgt" marker in dev, never a real stock photo implied to be actual staff/clients) — track sourcing in `docs/CONTENT-REQUIREMENTS.md`.
+- Until real Lotus Vitaal photography exists, use clearly-labeled placeholder imagery (e.g. a muted duotone/placeholder block with a visible "Beeldmateriaal volgt" marker in dev, never a real stock photo implied to be actual staff/clients) — track sourcing in `docs/CONTENT-REQUIREMENTS.md`.
 - Serve via `next/image` throughout for optimization.
 
 ## Iconography

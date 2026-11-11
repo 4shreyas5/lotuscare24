@@ -11,7 +11,7 @@ import { Timeline } from "@/components/shared/timeline";
 export const metadata: Metadata = {
   title: "Hoe werkt het?",
   description:
-    "De vijf stappen van LotusCare24: kennismaken, zorgbehoefte bespreken, zorg afstemmen, starten en blijven evalueren.",
+    "De vijf stappen van Lotus Vitaal: kennismaken, zorgbehoefte bespreken, zorg afstemmen, starten en blijven evalueren.",
 };
 
 const steps = [

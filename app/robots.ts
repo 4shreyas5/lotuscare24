@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://lotuscare24.com/sitemap.xml",
+    sitemap: "https://lotusvitaal.com/sitemap.xml",
   };
 }

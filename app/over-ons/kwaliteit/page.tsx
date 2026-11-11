@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FileText, Scale, ShieldCheck } from "lucide-react";
+import { FileText, Scale } from "lucide-react";
 
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { PageHero } from "@/components/layout/page-hero";
@@ -13,15 +13,10 @@ import { FeatureStrip } from "@/components/shared/feature-strip";
 export const metadata: Metadata = {
   title: "Kwaliteit en vertrouwen",
   description:
-    "Hoe LotusCare24 kwaliteit waarborgt, en waar u onze certificeringen, klachtenregeling en privacyverklaring vindt.",
+    "Hoe Lotus Vitaal kwaliteit waarborgt, en waar u onze certificeringen, klachtenregeling en privacyverklaring vindt.",
 };
 
 const references = [
-  {
-    icon: ShieldCheck,
-    title: "Certificeringen",
-    description: "[CONTENT NODIG: kwaliteitskeurmerken en certificeringen]",
-  },
   {
     icon: Scale,
     title: "Klachtenregeling",
@@ -55,9 +50,8 @@ export default function KwaliteitPage() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
             We vinden het belangrijk dat kwaliteit niet alleen voelbaar is,
-            maar ook toetsbaar. Hieronder vindt u waar wij verantwoording
-            over afleggen — inclusief de onderdelen die op dit moment nog
-            worden aangevuld.
+            maar ook toetsbaar. Hieronder vindt u waar u meer kunt lezen
+            over onze klachtenregeling en de omgang met uw gegevens.
           </p>
         </Reveal>
       </Section>

@@ -14,7 +14,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Over ons",
   description:
-    "LotusCare24 is er voor mensen die zorg nodig hebben in hun eigen huis — met persoonlijke aandacht en een vast, klein team.",
+    "Lotus Vitaal is er voor mensen die zorg nodig hebben in hun eigen huis — met persoonlijke aandacht en een vast, klein team.",
 };
 
 const values = [
@@ -43,9 +43,9 @@ export default function OverOnsPage() {
       <Breadcrumbs items={[{ label: "Over ons" }]} />
       <PageHero
         variant="hub"
-        eyebrow="Over LotusCare24"
+        eyebrow="Over Lotus Vitaal"
         title="Hier staat de mens centraal"
-        intro="LotusCare24 is er voor mensen die zorg nodig hebben in hun eigen huis — en voor de mensen om hen heen. Wij geloven dat goede zorg begint met aandacht, niet met een protocol."
+        intro="Lotus Vitaal is er voor mensen die zorg nodig hebben in hun eigen huis — en voor de mensen om hen heen. Wij geloven dat goede zorg begint met aandacht, niet met een protocol."
         image={images.familie}
         actions={
           <Button size="lg" render={<Link href="/kennismaken" />}>
@@ -104,7 +104,7 @@ export default function OverOnsPage() {
       </Section>
 
       <CTAImage
-        title="Maak kennis met LotusCare24"
+        title="Maak kennis met Lotus Vitaal"
         intro="Het beste beeld krijgt u in een persoonlijk gesprek."
         image={images.familie}
         actions={

@@ -103,7 +103,7 @@ function SollicitatieForm({ defaultFunctie }: { defaultFunctie?: string }) {
         multiline
         rows={5}
         required
-        hint="Vertel kort waarom u bij LotusCare24 wilt werken."
+        hint="Vertel kort waarom u bij Lotus Vitaal wilt werken."
         error={state.errors.motivatie}
       />
 

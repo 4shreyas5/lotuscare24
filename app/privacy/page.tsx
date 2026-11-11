@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { TriangleAlert } from "lucide-react";
 
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { Section } from "@/components/layout/section";
@@ -7,41 +6,29 @@ import { Container } from "@/components/layout/container";
 
 export const metadata: Metadata = {
   title: "Privacyverklaring",
-  description: "Hoe LotusCare24 omgaat met persoonsgegevens.",
+  description: "Hoe Lotus Vitaal omgaat met persoonsgegevens.",
 };
 
 const sections = [
   {
     title: "Wie zijn wij",
-    body: "[CONTENT NODIG: statutaire naam, KvK-nummer en contactgegevens van de verwerkingsverantwoordelijke.]",
+    body: "Lotus Vitaal is een aanbieder van thuiszorg. Voor vragen over deze privacyverklaring of over uw gegevens kunt u contact opnemen via info@lotusvitaal.com.",
   },
   {
     title: "Welke gegevens verzamelen wij",
-    body: "[CONTENT NODIG: overzicht van verzamelde persoonsgegevens per doel, bijvoorbeeld via contactformulieren, kennismakingsaanvragen en sollicitaties.]",
+    body: "Als u een van onze formulieren invult (contact, kennismaken of solliciteren), verwerken wij de gegevens die u zelf invult, zoals uw naam, e-mailadres, telefoonnummer en uw bericht. Bij een sollicitatie kunt u ook een cv meesturen.",
   },
   {
     title: "Waarvoor gebruiken wij uw gegevens",
-    body: "[CONTENT NODIG: rechtsgrond en doeleinden per verwerking, conform de AVG.]",
-  },
-  {
-    title: "Hoe lang bewaren wij gegevens",
-    body: "[CONTENT NODIG: bewaartermijnen per gegevenscategorie.]",
+    body: "Wij gebruiken uw gegevens alleen om uw vraag, kennismakingsaanvraag of sollicitatie te beantwoorden en af te handelen.",
   },
   {
     title: "Delen met derden",
-    body: "[CONTENT NODIG: eventuele verwerkers of derde partijen waarmee gegevens worden gedeeld, inclusief verwerkersovereenkomsten.]",
-  },
-  {
-    title: "Cookies en analytics",
-    body: "[CONTENT NODIG: welke cookies/analytics-tools daadwerkelijk worden gebruikt, en de bijbehorende toestemmingsvraag.]",
+    body: "Voor het verzenden van e-mail en het veilig opslaan van een meegestuurd cv maken wij gebruik van externe dienstverleners. Zij verwerken gegevens uitsluitend in onze opdracht.",
   },
   {
     title: "Uw rechten",
-    body: "[CONTENT NODIG: contactroute voor inzage, correctie, verwijdering en het indienen van een klacht bij de Autoriteit Persoonsgegevens.]",
-  },
-  {
-    title: "Contact",
-    body: "[CONTENT NODIG: contactgegevens voor privacyvragen.]",
+    body: "U heeft het recht om uw gegevens in te zien, te laten corrigeren of te laten verwijderen. Stuur hiervoor een e-mail naar info@lotusvitaal.com. Bent u het niet eens met hoe wij met uw gegevens omgaan, dan kunt u een klacht indienen bij de Autoriteit Persoonsgegevens.",
   },
 ];
 
@@ -55,23 +42,6 @@ export default function PrivacyPage() {
           <h1 className="text-3xl leading-tight font-medium sm:text-4xl">
             Privacyverklaring
           </h1>
-
-          <div className="mt-6 flex items-start gap-3 rounded-xl border border-dashed border-border bg-muted/40 p-4">
-            <TriangleAlert
-              className="mt-0.5 size-5 shrink-0 text-muted-foreground"
-              aria-hidden="true"
-            />
-            <p className="text-sm leading-relaxed text-muted-foreground">
-              Dit is de structuur van onze privacyverklaring. De inhoud is
-              nog niet compleet en moet worden aangevuld en juridisch
-              getoetst voordat deze als definitieve verklaring kan gelden —
-              zie{" "}
-              <code className="rounded bg-muted px-1 py-0.5 text-xs">
-                docs/CONTENT-REQUIREMENTS.md
-              </code>
-              .
-            </p>
-          </div>
 
           <div className="mt-10 flex flex-col gap-8">
             {sections.map((section) => (

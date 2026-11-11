@@ -8,7 +8,7 @@ import { images } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Solliciteren",
-  description: "Solliciteer bij LotusCare24 — vast team, ruimte voor vakmanschap.",
+  description: "Solliciteer bij Lotus Vitaal — vast team, ruimte voor vakmanschap.",
 };
 
 export default async function SolliciterenPage({
@@ -50,7 +50,7 @@ export default async function SolliciterenPage({
               sizes="(min-width: 1024px) 36vw, 100vw"
             />
             <p className="mt-3 text-xs text-muted-foreground">
-              Ter illustratie — geen LotusCare24-medewerkers
+              Ter illustratie — geen Lotus Vitaal-medewerkers
             </p>
           </div>
         </div>

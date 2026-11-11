@@ -14,7 +14,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Werken bij",
   description:
-    "Werken bij LotusCare24: zorg verlenen met ruimte voor persoonlijk vakmanschap, in een klein en vast team.",
+    "Werken bij Lotus Vitaal: zorg verlenen met ruimte voor persoonlijk vakmanschap, in een klein en vast team.",
 };
 
 const reasons = [
@@ -46,9 +46,9 @@ export default function WerkenBijPage() {
       <Breadcrumbs items={[{ label: "Werken bij" }]} />
       <PageHero
         variant="careers"
-        eyebrow="Werken bij LotusCare24"
+        eyebrow="Werken bij Lotus Vitaal"
         title="Zorg verlenen zoals het bedoeld is"
-        intro="Bij LotusCare24 werkt u in een klein, vast team — met ruimte voor uw vakmanschap en aandacht voor wie u bent, niet alleen voor wat u doet."
+        intro="Bij Lotus Vitaal werkt u in een klein, vast team — met ruimte voor uw vakmanschap en aandacht voor wie u bent, niet alleen voor wat u doet."
         image={images.team}
         actions={
           <>
@@ -82,9 +82,8 @@ export default function WerkenBijPage() {
             elkaar kennen, elkaar aanspreken en elkaar ondersteunen.
           </p>
           <p>
-            [CONTENT NODIG: concrete arbeidsvoorwaarden, secundaire
-            voorwaarden en opleidingsmogelijkheden zodra deze definitief
-            zijn.]
+            Wilt u weten wat wij te bieden hebben? Neem gerust vrijblijvend
+            contact met ons op, dan vertellen we u er graag meer over.
           </p>
         </SplitSection>
       </Section>

@@ -12,8 +12,7 @@ function Wordmark({ className }: { className?: string }) {
         className
       )}
     >
-      Lotus<span className="text-primary">Care</span>
-      <span className="text-accent">24</span>
+      Lotus <span className="text-primary">Vitaal</span>
     </span>
   );
 }

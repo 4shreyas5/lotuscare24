@@ -34,7 +34,7 @@ const items = [
 function TrustStrip() {
   return (
     <Section className="border-y border-border py-8 md:py-10">
-      <h2 className="sr-only">Waarom LotusCare24</h2>
+      <h2 className="sr-only">Waarom Lotus Vitaal</h2>
       <Reveal>
         <div className="grid gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x lg:divide-border">
           {items.map((item) => (

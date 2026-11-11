@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Mail } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
 import { Wordmark } from "@/components/brand/wordmark";
@@ -14,12 +15,13 @@ function Footer() {
             Thuiszorg met persoonlijke aandacht — een vast, klein team dat u
             leert kennen.
           </p>
-          {/* Contact facts are not yet confirmed — see docs/CONTENT-REQUIREMENTS.md */}
-          <ul className="flex flex-col gap-1 text-xs text-muted-foreground sm:flex-row sm:gap-4">
-            <li>[CONTENT NODIG: telefoonnummer]</li>
-            <li>[CONTENT NODIG: e-mailadres]</li>
-            <li>[CONTENT NODIG: adresgegevens]</li>
-          </ul>
+          <a
+            href="mailto:info@lotusvitaal.com"
+            className="inline-flex min-h-11 w-fit items-center gap-2 text-sm font-medium text-foreground underline-offset-4 hover:underline"
+          >
+            <Mail className="size-4 text-primary" aria-hidden="true" />
+            info@lotusvitaal.com
+          </a>
         </div>
 
         <div className="grid grid-cols-2 gap-x-6 gap-y-10 pt-10 sm:grid-cols-3 lg:grid-cols-5 lg:gap-8">
@@ -46,7 +48,7 @@ function Footer() {
 
         <div className="mt-10 flex flex-col gap-4 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} LotusCare24. Alle rechten
+            © {new Date().getFullYear()} Lotus Vitaal. Alle rechten
             voorbehouden.
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">

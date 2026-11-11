@@ -16,7 +16,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Mantelzorg",
   description:
-    "De rol van familie en mantelzorgers bij LotusCare24 — hoe wij rekening houden met de mensen om de cliënt heen.",
+    "De rol van familie en mantelzorgers bij Lotus Vitaal — hoe wij rekening houden met de mensen om de cliënt heen.",
 };
 
 export default function MantelzorgPage() {
@@ -32,7 +32,7 @@ export default function MantelzorgPage() {
         variant="editorial"
         eyebrow="Voor familie en mantelzorgers"
         title="Zorg raakt niet alleen de cliënt"
-        intro="Ook de mensen eromheen voelen wat er speelt. LotusCare24 ziet en begrijpt die rol — en houdt daar in de zorg rekening mee."
+        intro="Ook de mensen eromheen voelen wat er speelt. Lotus Vitaal ziet en begrijpt die rol — en houdt daar in de zorg rekening mee."
         image={images.mantelzorg}
         actions={
           <Button size="lg" render={<Link href="/kennismaken" />}>

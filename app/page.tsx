@@ -30,7 +30,7 @@ export default function Home() {
           imageVariant="editorial"
         >
           <p>
-            LotusCare24 is er voor mensen die zorg nodig hebben in hun eigen
+            Lotus Vitaal is er voor mensen die zorg nodig hebben in hun eigen
             huis — en voor de mensen om hen heen. Goede zorg begint met
             luisteren: naar wat iemand nodig heeft, wat belangrijk is, en hoe
             familie daarbij betrokken wil zijn.

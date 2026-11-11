@@ -16,7 +16,7 @@ function Header() {
         <Link
           href="/"
           className="shrink-0"
-          aria-label="LotusCare24 — naar de homepage"
+          aria-label="Lotus Vitaal — naar de homepage"
         >
           <Wordmark />
         </Link>

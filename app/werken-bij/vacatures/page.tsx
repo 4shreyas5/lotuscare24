@@ -11,7 +11,7 @@ import { vacancies } from "@/lib/vacancies";
 
 export const metadata: Metadata = {
   title: "Vacatures",
-  description: "Actuele vacatures bij LotusCare24.",
+  description: "Functies waarvoor Lotus Vitaal graag in contact komt met zorgprofessionals.",
 };
 
 export default function VacaturesPage() {
@@ -21,9 +21,9 @@ export default function VacaturesPage() {
         items={[{ label: "Werken bij", href: "/werken-bij" }, { label: "Vacatures" }]}
       />
       <PageHero
-        eyebrow="Werken bij LotusCare24"
+        eyebrow="Werken bij Lotus Vitaal"
         title="Actuele vacatures"
-        intro="Onderstaande vacatures zijn voorbeelden van de rollen waarvoor wij mensen zoeken. De exacte invulling volgt zodra deze definitief is."
+        intro="Dit zijn de functies waarvoor wij graag in contact komen met zorgprofessionals. Klik op een functie om direct te solliciteren."
       />
 
       <Section>

@@ -14,7 +14,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Hoe wij helpen",
   description:
-    "Hoe LotusCare24 zorg organiseert: van de eerste kennismaking tot zorgplanning en de rol van familie en mantelzorgers.",
+    "Hoe Lotus Vitaal zorg organiseert: van de eerste kennismaking tot zorgplanning en de rol van familie en mantelzorgers.",
 };
 
 export default function HoeWijHelpenPage() {

@@ -4,7 +4,6 @@ import { Section } from "@/components/layout/section";
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Reveal } from "@/components/motion/reveal";
 import { Card, CardContent } from "@/components/ui/card";
-import { PullQuote } from "@/components/shared/pull-quote";
 
 export type Testimonial = {
   quote: string;
@@ -14,13 +13,16 @@ export type Testimonial = {
 
 /**
  * Testimonial architecture, ready for real content. No invented names/quotes —
- * renders a calm empty state until testimonials are supplied and consented to.
+ * renders nothing until testimonials are supplied and consented to.
  */
 function TestimonialsSection({
   testimonials = [],
 }: {
   testimonials?: Testimonial[];
 }) {
+  // Without real, consented testimonials the section is not rendered at all.
+  if (testimonials.length === 0) return null;
+
   return (
     <Section surface="muted">
       <SectionHeading
@@ -28,7 +30,6 @@ function TestimonialsSection({
         title="Wat cliënten en families zeggen"
       />
       <Reveal delay={0.1} className="mt-12">
-        {testimonials.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((item) => (
               <Card key={item.name}>
@@ -48,15 +49,6 @@ function TestimonialsSection({
               </Card>
             ))}
           </div>
-        ) : (
-          <div className="flex flex-col items-center gap-4 py-8 text-center">
-            <Quote className="size-6 text-accent" aria-hidden="true" />
-            <PullQuote className="max-w-xl text-muted-foreground">
-              Binnenkort delen cliënten en families hier hun ervaringen met
-              LotusCare24.
-            </PullQuote>
-          </div>
-        )}
       </Reveal>
     </Section>
   );

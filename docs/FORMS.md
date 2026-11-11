@@ -31,7 +31,7 @@ Variables) for staging/production.
 | Variable | Purpose | If unset |
 | --- | --- | --- |
 | `RESEND_API_KEY` | Auth for the [Resend](https://resend.com) API. | No email is sent. The form still validates and accepts the submission — see "Local development" below. |
-| `RESEND_FROM_EMAIL` | The sender address, e.g. `LotusCare24 <noreply@lotuscare24.nl>`. Must be on a domain verified in Resend. Not the same as `CONTACT_EMAIL` — this is a technical sender address, not the business's real inbox. | Same as above. |
+| `RESEND_FROM_EMAIL` | The sender address, e.g. `Lotus Vitaal <noreply@lotusvitaal.com>`. Must be on a domain verified in Resend. Not the same as `CONTACT_EMAIL` — this is a technical sender address, not the business's real inbox. | Same as above. |
 | `CONTACT_EMAIL` | Where contact- and kennismaken-form notifications go. | Same as above. |
 | `APPLICATION_EMAIL` | Where sollicitatie-form notifications go. | Same as above. |
 | `BLOB_READ_WRITE_TOKEN` | Auth for [Vercel Blob](https://vercel.com/docs/vercel-blob), used to store uploaded cv files. Set automatically in Vercel deployments with a Blob store attached. | Uploaded cv files are not stored; the applicant's other details are still accepted and the internal email notes that the cv wasn't stored (see "Cv storage" below). |
@@ -48,7 +48,7 @@ spam/rate-limit checks, and the success/error UI all function normally. What
 doesn't happen is the actual email send — `sendNotificationEmail` detects the
 missing configuration, logs a `[forms] ...` warning server-side, and the
 action still returns success (the visible success message never claims an
-email was sent — it only confirms LotusCare24 received the submission). In
+email was sent — it only confirms Lotus Vitaal received the submission). In
 non-production (`NODE_ENV !== "production"`) only, a small dev-only note is
 shown under the success message so this is obvious while testing locally —
 see it happen: submit `/contact` with `RESEND_API_KEY` unset.

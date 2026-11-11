@@ -63,7 +63,7 @@ type PlaceholderImageProps = {
  * Shared image treatment — a design tool with several intentional compositions
  * (see `variant`), not just a contained placeholder box. Renders an explicit
  * "beeldmateriaal volgt" placeholder when no `src` is given. Never render stock
- * imagery here implying real LotusCare24 staff or clients (docs/DESIGN-SYSTEM.md).
+ * imagery here implying real Lotus Vitaal staff or clients (docs/DESIGN-SYSTEM.md).
  */
 function PlaceholderImage({
   src,

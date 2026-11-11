@@ -1,8 +1,8 @@
 @AGENTS.md
 
-# LotusCare24 — Permanent Project Rules
+# Lotus Vitaal — Permanent Project Rules
 
-LotusCare24.com is a Dutch homecare/healthcare marketing website. These rules are permanent and apply to all work in this repo. Background and rationale live in `docs/`:
+lotusvitaal.com is a Dutch homecare/healthcare marketing website. These rules are permanent and apply to all work in this repo. Background and rationale live in `docs/`:
 
 - `docs/PROJECT.md` — brand, market, audiences, reference model, absolute content rule
 - `docs/DESIGN-SYSTEM.md` — color tokens, typography, spacing, motion, imagery
@@ -15,13 +15,13 @@ Every string a visitor can see or hear must be natural, professional Dutch: nav,
 
 Code stays in English: component names, variables, props, comments, commit messages.
 
-## 2. Never fabricate LotusCare24 facts
+## 2. Never fabricate Lotus Vitaal facts
 
 No invented address, phone, email, KvK number, cities served, opening hours, certifications, quality marks, insurance/PGB arrangements, prices, statistics, headcount, years of experience, testimonials, employee identities, or partnerships. Where a fact is unknown, write `[CONTENT NODIG: <what's needed>]` directly in the copy/component and add it to `docs/CONTENT-REQUIREMENTS.md`. Never let a placeholder fact silently read as real in production copy.
 
 ## 3. Reference site is a functional model only
 
-`thuisontzorgt.nl` informs information architecture and the kinds of things a Dutch homecare visitor needs to find. Never copy its logo, colors, typography, CSS, layouts, photography, or wording. LotusCare24's IA may resemble it in *category* (services, recruitment, contact) but every layout, composition, and sentence must be original.
+`thuisontzorgt.nl` informs information architecture and the kinds of things a Dutch homecare visitor needs to find. Never copy its logo, colors, typography, CSS, layouts, photography, or wording. Lotus Vitaal's IA may resemble it in *category* (services, recruitment, contact) but every layout, composition, and sentence must be original.
 
 ## 4. Design principles
 

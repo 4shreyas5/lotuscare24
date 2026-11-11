@@ -17,7 +17,7 @@ function MantelzorgCallout() {
           Zorg raakt niet alleen de cliënt — ook de mensen eromheen.
         </PullQuote>
         <p className="max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          LotusCare24 ziet en begrijpt de rol van familie en mantelzorgers. We
+          Lotus Vitaal ziet en begrijpt de rol van familie en mantelzorgers. We
           denken met u mee, houden u op de hoogte en zoeken naar zorg die ook
           voor u als naaste behapbaar is.
         </p>

@@ -1,9 +1,9 @@
-# LotusCare24 — Project Brief
+# Lotus Vitaal — Project Brief
 
 ## Brand
 
-- **Name:** LotusCare24
-- **Domain:** lotuscare24.com
+- **Name:** Lotus Vitaal
+- **Domain:** lotusvitaal.com
 - **Industry:** Thuiszorg / homecare (Netherlands)
 - **Primary market & language:** Netherlands, Dutch. All user-facing content is Dutch — see `CLAUDE.md` §1.
 - **Legal/business facts:** unknown at this stage. See `docs/CONTENT-REQUIREMENTS.md` before publishing any page that implies a fact (address, KvK, certifications, etc.).
@@ -26,7 +26,7 @@ Fetched and reviewed for structure only (2026-08-27). Observed model:
 - **Audience split:** care recipients/families get intake + service info + testimonials; care professionals get a dedicated recruitment section; referrers/partners get a "ketenpartners" section.
 - **Intake model:** consultation call → intake conversation (needs assessment) → feasibility check (financing/insurance) → provider matching.
 
-**Explicitly not reused:** its logo, colors, typography, CSS, layout compositions, photography, or any copy. Only the *category* of information a Dutch homecare visitor expects is treated as a reference. LotusCare24's actual sitemap (`docs/INFORMATION-ARCHITECTURE.md`) restructures and renames this model based on our own usability judgment — several thin reference pages (e.g. separate nachtzorg, separate vacatures listing) are merged into richer parent pages until real content justifies splitting them out.
+**Explicitly not reused:** its logo, colors, typography, CSS, layout compositions, photography, or any copy. Only the *category* of information a Dutch homecare visitor expects is treated as a reference. Lotus Vitaal's actual sitemap (`docs/INFORMATION-ARCHITECTURE.md`) restructures and renames this model based on our own usability judgment — several thin reference pages (e.g. separate nachtzorg, separate vacatures listing) are merged into richer parent pages until real content justifies splitting them out.
 
 ## Audiences
 
@@ -51,7 +51,7 @@ Audited directly — see also `AGENTS.md` (Next.js's own generated agent notes) 
 - **Components:** shadcn/ui, `style: base-nova`, `baseColor: neutral`, built on `@base-ui/react` (not Radix) + `class-variance-authority`. Installed so far: `accordion`, `badge`, `button`, `card`, `dialog`, `input`, `separator`, `sheet`, `textarea` — all unused, default scaffold only.
 - **Icons:** `lucide-react`.
 - **Fonts:** Geist Sans / Geist Mono via `next/font/google`, wired but not yet extended with a display face.
-- **State:** `app/page.tsx` and `app/layout.tsx` are still the unmodified `create-next-app` scaffold. No custom pages, sections, or content exist yet. One git commit ("Initialize LotusCare24 website foundation") with a clean working tree.
+- **State:** `app/page.tsx` and `app/layout.tsx` are still the unmodified `create-next-app` scaffold. No custom pages, sections, or content exist yet. One git commit ("Initialize Lotus Vitaal website foundation") with a clean working tree.
 - **MCP:** a `shadcn` MCP server is configured (`.mcp.json`) for pulling registry components.
 
 This is a blank slate: the design system and IA below are the first real product decisions for this repo.

@@ -58,7 +58,7 @@ function Hero() {
           </Reveal>
           <Reveal delay={0.3}>
             <p className="mt-6 text-xs text-primary-foreground/55">
-              Ter illustratie — geen LotusCare24-cliënt of medewerker
+              Ter illustratie — geen Lotus Vitaal-cliënt of medewerker
             </p>
           </Reveal>
         </div>

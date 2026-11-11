@@ -11,7 +11,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Kennismaken",
   description:
-    "Plan een vrijblijvende kennismaking met LotusCare24 — een rustig gesprek over uw situatie, zonder verplichtingen.",
+    "Plan een vrijblijvende kennismaking met Lotus Vitaal — een rustig gesprek over uw situatie, zonder verplichtingen.",
 };
 
 const reassurances = [

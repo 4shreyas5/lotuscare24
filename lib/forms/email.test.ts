@@ -29,7 +29,7 @@ describe("sendNotificationEmail", () => {
 
   it("reports not_configured when no recipient is configured", async () => {
     process.env.RESEND_API_KEY = "re_test_key";
-    process.env.RESEND_FROM_EMAIL = "LotusCare24 <noreply@example.com>";
+    process.env.RESEND_FROM_EMAIL = "Lotus Vitaal <noreply@example.com>";
     const result = await sendNotificationEmail({
       to: undefined,
       subject: "Test",

@@ -50,10 +50,6 @@ function QualitySection() {
               </li>
             ))}
           </ul>
-          <p className="text-sm text-muted-foreground">
-            Certificeringen en kwaliteitsinformatie worden hier binnenkort
-            toegevoegd.
-          </p>
         </Reveal>
       </div>
     </Section>

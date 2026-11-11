@@ -63,7 +63,7 @@ export const overOnsLinks: NavLink[] = [
 ];
 
 export const werkenBijLinks: NavLink[] = [
-  { label: "Werken bij LotusCare24", href: "/werken-bij" },
+  { label: "Werken bij Lotus Vitaal", href: "/werken-bij" },
   { label: "Vacatures", href: "/werken-bij/vacatures" },
   { label: "Solliciteren", href: "/werken-bij/solliciteren" },
 ];
@@ -71,7 +71,7 @@ export const werkenBijLinks: NavLink[] = [
 /** Primary header nav. The CTA button (→ /kennismaken) is separate, not listed here. */
 export const primaryNavLinks: NavLink[] = [
   { label: "Hoe wij helpen", href: "/hoe-wij-helpen" },
-  { label: "Over LotusCare24", href: "/over-ons" },
+  { label: "Over Lotus Vitaal", href: "/over-ons" },
   { label: "Werken bij", href: "/werken-bij" },
   { label: "Samenwerken", href: "/samenwerken" },
 ];

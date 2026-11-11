@@ -24,25 +24,25 @@ const newsreader = Newsreader({
 });
 
 const siteDescription =
-  "LotusCare24 biedt thuiszorg, persoonlijke verzorging, verpleging en begeleiding met een vast, klein team dat u écht leert kennen.";
+  "Lotus Vitaal biedt thuiszorg, persoonlijke verzorging, verpleging en begeleiding met een vast, klein team dat u écht leert kennen.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://lotuscare24.com"),
+  metadataBase: new URL("https://lotusvitaal.com"),
   title: {
-    default: "LotusCare24 — Thuiszorg met persoonlijke aandacht",
-    template: "%s — LotusCare24",
+    default: "Lotus Vitaal — Thuiszorg met persoonlijke aandacht",
+    template: "%s — Lotus Vitaal",
   },
   description: siteDescription,
   openGraph: {
     type: "website",
     locale: "nl_NL",
-    siteName: "LotusCare24",
-    title: "LotusCare24 — Thuiszorg met persoonlijke aandacht",
+    siteName: "Lotus Vitaal",
+    title: "Lotus Vitaal — Thuiszorg met persoonlijke aandacht",
     description: siteDescription,
   },
   twitter: {
     card: "summary_large_image",
-    title: "LotusCare24 — Thuiszorg met persoonlijke aandacht",
+    title: "Lotus Vitaal — Thuiszorg met persoonlijke aandacht",
     description: siteDescription,
   },
   robots: {

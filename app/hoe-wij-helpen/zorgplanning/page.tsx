@@ -13,7 +13,7 @@ import { images } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Zorgplanning",
   description:
-    "Hoe LotusCare24 zorg rond u coördineert — overzichtelijk, met korte lijnen naar u, uw familie en andere betrokken zorgverleners.",
+    "Hoe Lotus Vitaal zorg rond u coördineert — overzichtelijk, met korte lijnen naar u, uw familie en andere betrokken zorgverleners.",
 };
 
 export default function ZorgplanningPage() {

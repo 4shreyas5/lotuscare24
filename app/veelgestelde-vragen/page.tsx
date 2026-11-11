@@ -18,7 +18,7 @@ import { faqGroups } from "@/lib/faq-data";
 export const metadata: Metadata = {
   title: "Veelgestelde vragen",
   description:
-    "Antwoorden op veelgestelde vragen over zorg, aanvragen, mantelzorg, kennismaking en praktische zaken bij LotusCare24.",
+    "Antwoorden op veelgestelde vragen over zorg, aanvragen, mantelzorg, kennismaking en praktische zaken bij Lotus Vitaal.",
 };
 
 function groupSlug(title: string) {

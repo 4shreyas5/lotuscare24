@@ -15,7 +15,7 @@ import { serviceContent } from "@/lib/service-content";
 export const metadata: Metadata = {
   title: "Zorg",
   description:
-    "Het volledige zorgaanbod van LotusCare24: thuiszorg, persoonlijke verzorging, verpleging, begeleiding, 24-uurszorg en palliatieve zorg.",
+    "Het volledige zorgaanbod van Lotus Vitaal: thuiszorg, persoonlijke verzorging, verpleging, begeleiding, 24-uurszorg en palliatieve zorg.",
 };
 
 export default function ZorgPage() {

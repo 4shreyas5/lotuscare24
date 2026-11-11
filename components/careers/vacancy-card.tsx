@@ -14,19 +14,27 @@ function VacancyCard({ vacancy }: { vacancy: Vacancy }) {
         <h3 className="text-xl font-medium text-foreground transition-colors group-hover:text-primary sm:text-2xl">
           {vacancy.title}
         </h3>
-        <p className="max-w-xl text-sm leading-relaxed text-muted-foreground">
-          {vacancy.description}
-        </p>
-        <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
-          <span className="inline-flex items-center gap-1">
-            <Clock className="size-3.5" aria-hidden="true" />
-            {vacancy.hours}
-          </span>
-          <span className="inline-flex items-center gap-1">
-            <MapPin className="size-3.5" aria-hidden="true" />
-            {vacancy.region}
-          </span>
-        </div>
+        {vacancy.description && (
+          <p className="max-w-xl text-sm leading-relaxed text-muted-foreground">
+            {vacancy.description}
+          </p>
+        )}
+        {(vacancy.hours || vacancy.region) && (
+          <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
+            {vacancy.hours && (
+              <span className="inline-flex items-center gap-1">
+                <Clock className="size-3.5" aria-hidden="true" />
+                {vacancy.hours}
+              </span>
+            )}
+            {vacancy.region && (
+              <span className="inline-flex items-center gap-1">
+                <MapPin className="size-3.5" aria-hidden="true" />
+                {vacancy.region}
+              </span>
+            )}
+          </div>
+        )}
       </div>
       <span className="inline-flex shrink-0 items-center gap-1.5 text-sm font-medium text-primary">
         Solliciteer

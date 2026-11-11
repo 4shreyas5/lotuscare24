@@ -1,11 +1,11 @@
 /**
- * Centralized image configuration for LotusCare24.
+ * Centralized image configuration for Lotus Vitaal.
  *
  * Client-supplied photography lives in:
  * /public/images/client/
  *
  * Temporary stock photography remains only where a confirmed
- * LotusCare24 client image is not yet available.
+ * Lotus Vitaal client image is not yet available.
  */
 
 export type ImageAsset = {

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { Section } from "@/components/layout/section";
@@ -7,14 +7,8 @@ import { ContactForm } from "@/components/forms/contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Neem contact op met LotusCare24 voor vragen over onze zorg.",
+  description: "Neem contact op met Lotus Vitaal voor vragen over onze zorg.",
 };
-
-const contactDetails = [
-  { icon: Phone, label: "[CONTENT NODIG: telefoonnummer]" },
-  { icon: Mail, label: "[CONTENT NODIG: e-mailadres]" },
-  { icon: MapPin, label: "[CONTENT NODIG: adresgegevens]" },
-];
 
 export default function ContactPage() {
   return (
@@ -41,22 +35,13 @@ export default function ContactPage() {
               .
             </p>
 
-            <ul className="mt-8 flex flex-col gap-3">
-              {contactDetails.map((detail) => (
-                <li
-                  key={detail.label}
-                  className="flex items-center gap-3 text-sm text-muted-foreground"
-                >
-                  <detail.icon className="size-4 shrink-0 text-primary" aria-hidden="true" />
-                  {detail.label}
-                </li>
-              ))}
-            </ul>
-
-            <div className="mt-8 flex h-40 items-center justify-center rounded-xl border border-dashed border-border text-center text-xs text-muted-foreground">
-              [CONTENT NODIG: kaart/route naar locatie, zodra een
-              bezoekadres bekend is]
-            </div>
+            <a
+              href="mailto:info@lotusvitaal.com"
+              className="mt-8 inline-flex min-h-11 items-center gap-3 text-base font-medium text-foreground underline-offset-4 hover:underline"
+            >
+              <Mail className="size-5 shrink-0 text-primary" aria-hidden="true" />
+              info@lotusvitaal.com
+            </a>
           </div>
 
           <div className="lg:col-span-7">
